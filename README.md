@@ -15,19 +15,17 @@ Installation and Running the Game
 To run this game, you will need to have SFML installed on your system. Follow the instructions on the SFML website to install SFML.
 
 Compiling the Game
+
 The game can be compiled using g++ with SFML. Use the following command to compile:
 
-bash
-Copy code
 g++ main.cpp -o TetrisGame -I/path/to/SFML/include -L/path/to/SFML/lib -lsfml-graphics -lsfml-window -lsfml-system
+
 Replace /path/to/SFML with the actual path where SFML is installed on your system.
 
 Running the Game
 After compiling, you can run the game using:
-
-bash
-Copy code
 ./TetrisGame
+
 Controls
 
 Up Arrow - Rotate Tetrimino
